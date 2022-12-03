@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aoc-py-2022"
+version = "0.1.0"
+description = "My Advent of Code solutions in Python for 2022"
+authors = ["Robin5605 <robinjefferson123@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "aoc_py_2022"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.7.0"}
+rich = "^12.6.0"
+requests = "^2.28.1"
+toml = "^0.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
