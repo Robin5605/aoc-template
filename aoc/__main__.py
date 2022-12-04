@@ -36,9 +36,9 @@ def main(
             table.add_row("2", str(part_two))
         else:
             if part == 1:
-                result = solution.part_one()
+                result = part_one
             if part == 2:
-                result = solution.part_two()
+                result = part_two
 
             table.add_row(str(part), str(result))
 
