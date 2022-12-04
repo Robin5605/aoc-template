@@ -57,4 +57,4 @@ def get_solution_class(*, day: int):
     if day < 1 and day > 25:
         raise Exception("Invalid day. Day must be between 1 and 25 inclusive.")
 
-    return solution_classes[day]
+    return solution_classes[day - 1]
